@@ -7,6 +7,9 @@
 
 # Configuração
 
+`nano /usr/lib/zabbix/alertscripts/zabbix_webhook.sh`
+
+
 ```
 #!/bin/bash
 
@@ -44,4 +47,8 @@ fi
 echo "$response"
 ```
 
+`chmod +x zabbix_webhook.sh`
+
 # Em breve mais detalhes...
+
+Create media type in: Menu > Alerts > Create a media type > type: script and name of file 'zabbix_webhook.sh'
